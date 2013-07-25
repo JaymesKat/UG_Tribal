@@ -691,6 +691,8 @@ a.ui-link-inherit { text-decoration: none !important; }
 	outline-style: auto;
 }
 
+/*[data-role=page]{height: 100% !important; position:relative !important;}
+[data-role=footer]{bottom:0; position:absolute !important; top: auto !important; width:100%;} */
 
 #map_canvas {
 	display:block;
@@ -702,11 +704,11 @@ a.ui-link-inherit { text-decoration: none !important; }
 #page ul{ height: 100%; padding: 20px 30px 10px 30px;}
 #content ul li {height: 60px;}
 
-#page, #content {
+#page, #content, #banyankore_info, #dressing, #dance #dishes {
 	padding:1px;
-	height:100%;
-	background: #333;
-	background-size:cover;
+	background-size:contain;
+	height: auto;
+	margin: 0 auto;
 }
 
 #article{
@@ -716,8 +718,12 @@ a.ui-link-inherit { text-decoration: none !important; }
 	text-align:justify;
 }
 
-#article h3{
-	margin-top: 10px;
+#article p{
+	
+	padding-bottom: 10px;
+}
+#article h3, #article h4{
+	margin-top: 5px;
 	margin-bottom:0px;
 }
 #article img{
@@ -726,6 +732,7 @@ a.ui-link-inherit { text-decoration: none !important; }
 	width:120px;
 	height:90px;
 }
+ 
  #banner {
 	 background:url(../images/Uganda-small-round-mud-hut.jpg) no-repeat; background-size:cover; background-position:center; height: 250px; }
  

@@ -25,15 +25,15 @@
                 $('#map_canvas').gmap('refresh');
         });
         $('#gmap').live("pageinit", function() {
-                $('#map_canvas').gmap({center:'1.559866,32.398682', 'mapTypeId':'roadmap', zoom:6});
+                $('#map_canvas').gmap({center:'1.559866,32.398682', 'mapTypeId':'roadmap', 'zoom':6});
         });
 </script>
 </head>
 
 <body>
 <div id="gmap" data-role="page" data-theme="custom">
-  <div data-role="header">
-    <h1>Map Of Uganda</h1>
+  <div data-role="header" data-theme="custom">
+    <a href="#page" data-role="button" data-icon="arrow-l" rel="home" data-theme="custom">Home</a><h1>Map Of Uganda</h1>
   </div>
   <div data-role="content" data-theme="custom">
     <div id="map_canvas"></div>
