@@ -7,7 +7,7 @@ $('#gmap').live('pagecreate',function(){
 			$('#map_canvas').gmap('openInfoWindow',{'content':'<a href="baganda.html">Baganda people</a>'},this);
 			});
 		$('#map_canvas').gmap('addMarker', {'id':'m_2', 'position': '3.074695,32.028808', 'bounds': false } ).click(function(){
-			$('#map_canvas').gmap('openInfoWindow',{'content':'<a href="baganda.html">Acholi people</a>'},this);
+			$('#map_canvas').gmap('openInfoWindow',{'content':'<a href="acholi.html">Acholi people</a>'},this);
 			});
 		$('#map_canvas').gmap('addMarker', {'id':'m_3', 'position': '-0.35156,30.666504', 'bounds': false } ).click(function(){
 			$('#map_canvas').gmap('openInfoWindow',{'content':'<a href="banyankore.html">Banyankore people</a>'},this);
